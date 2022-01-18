@@ -1,0 +1,1220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 705507994}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &705507993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 705507995}
+  - component: {fileID: 705507994}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &705507994
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &705507995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &963194225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 963194228}
+  - component: {fileID: 963194227}
+  - component: {fileID: 963194226}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &963194226
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+--- !u!20 &963194227
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &963194228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1752814448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1752814453}
+  - component: {fileID: 1752814452}
+  - component: {fileID: 1752814451}
+  - component: {fileID: 1752814450}
+  - component: {fileID: 1752814449}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1752814449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752814448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5ea39e33ffd4f44cb67343be1aee061, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leapProvider: {fileID: 0}
+  LeapHand:
+    FrameId: 0
+    Id: 0
+    Fingers:
+    - bones:
+      - PrevJoint:
+          x: -0.019338261
+          y: -0.053168487
+          z: -0.005999998
+        NextJoint:
+          x: -0.019338261
+          y: -0.053168487
+          z: -0.005999998
+        Center:
+          x: -0.019338261
+          y: -0.053168487
+          z: -0.005999998
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0.008
+        Type: 0
+        Rotation:
+          x: -0.63125086
+          y: 0.55507064
+          z: 0.526921
+          w: 0.12559143
+      - PrevJoint:
+          x: -0.019338261
+          y: -0.053168487
+          z: -0.005999998
+        NextJoint:
+          x: -0.043641403
+          y: -0.01880317
+          z: -0.025096357
+        Center:
+          x: -0.031489834
+          y: -0.035985827
+          z: -0.015548177
+        Direction:
+          x: -0.52581435
+          y: 0.74351615
+          z: -0.41316223
+        Length: 0.046220005
+        Width: 0.008
+        Type: 1
+        Rotation:
+          x: -0.63125086
+          y: 0.55507064
+          z: 0.526921
+          w: 0.12559143
+      - PrevJoint:
+          x: -0.043641403
+          y: -0.01880317
+          z: -0.025096357
+        NextJoint:
+          x: -0.06024136
+          y: 0.004669634
+          z: -0.03813989
+        Center:
+          x: -0.05194138
+          y: -0.0070667677
+          z: -0.031618126
+        Direction:
+          x: -0.52581424
+          y: 0.7435161
+          z: -0.41316226
+        Length: 0.031570002
+        Width: 0.008
+        Type: 2
+        Rotation:
+          x: -0.63125086
+          y: 0.55507064
+          z: 0.526921
+          w: 0.12559143
+      - PrevJoint:
+          x: -0.06024136
+          y: 0.004669634
+          z: -0.03813989
+        NextJoint:
+          x: -0.07163576
+          y: 0.020781627
+          z: -0.04709311
+        Center:
+          x: -0.06593856
+          y: 0.012725631
+          z: -0.0426165
+        Direction:
+          x: -0.5258145
+          y: 0.743516
+          z: -0.41316184
+        Length: 0.02167
+        Width: 0.008
+        Type: 3
+        Rotation:
+          x: -0.63125086
+          y: 0.55507064
+          z: 0.526921
+          w: 0.12559143
+      Type: 0
+      Id: 0
+      HandId: 0
+      TipPosition:
+        x: -0.07163576
+        y: 0.020781627
+        z: -0.04709311
+      Direction:
+        x: -0.52581424
+        y: 0.7435161
+        z: -0.41316226
+      Width: 0.008
+      Length: 0.099460006
+      IsExtended: 1
+      TimeVisible: 0
+    - bones:
+      - PrevJoint:
+          x: -0.011870347
+          y: -0.043260653
+          z: 0.012104954
+        NextJoint:
+          x: -0.023181288
+          y: 0.023149347
+          z: 0.0020000022
+        Center:
+          x: -0.017525818
+          y: -0.010055653
+          z: 0.007052478
+        Direction:
+          x: -0.16604434
+          y: 0.97489715
+          z: -0.14834045
+        Length: 0.06812
+        Width: 0.008
+        Type: 0
+        Rotation:
+          x: -0.063839965
+          y: 0.7550461
+          z: 0.65023625
+          w: -0.054978233
+      - PrevJoint:
+          x: -0.023181288
+          y: 0.023149347
+          z: 0.0020000022
+        NextJoint:
+          x: -0.029786529
+          y: 0.061930753
+          z: -0.0039009803
+        Center:
+          x: -0.026483908
+          y: 0.04254005
+          z: -0.0009504891
+        Direction:
+          x: -0.16604427
+          y: 0.97489697
+          z: -0.14834043
+        Length: 0.039780002
+        Width: 0.008
+        Type: 1
+        Rotation:
+          x: -0.063839965
+          y: 0.7550461
+          z: 0.65023625
+          w: -0.054978233
+      - PrevJoint:
+          x: -0.029786529
+          y: 0.061930753
+          z: -0.0039009803
+        NextJoint:
+          x: -0.0335026
+          y: 0.08374895
+          z: -0.007220839
+        Center:
+          x: -0.031644564
+          y: 0.072839856
+          z: -0.00556091
+        Direction:
+          x: -0.16604432
+          y: 0.97489715
+          z: -0.14834043
+        Length: 0.02238
+        Width: 0.008
+        Type: 2
+        Rotation:
+          x: -0.063839965
+          y: 0.7550461
+          z: 0.65023625
+          w: -0.054978233
+      - PrevJoint:
+          x: -0.0335026
+          y: 0.08374895
+          z: -0.007220839
+        NextJoint:
+          x: -0.036129422
+          y: 0.099171825
+          z: -0.009567585
+        Center:
+          x: -0.03481601
+          y: 0.09146039
+          z: -0.0083942115
+        Direction:
+          x: -0.16604434
+          y: 0.97489715
+          z: -0.14834043
+        Length: 0.01582
+        Width: 0.008
+        Type: 3
+        Rotation:
+          x: -0.063839965
+          y: 0.7550461
+          z: 0.65023625
+          w: -0.054978233
+      Type: 1
+      Id: 1
+      HandId: 0
+      TipPosition:
+        x: -0.036129422
+        y: 0.099171825
+        z: -0.009567585
+      Direction:
+        x: -0.16604432
+        y: 0.97489715
+        z: -0.14834043
+      Width: 0.008
+      Length: 0.07798
+      IsExtended: 1
+      TimeVisible: 0
+    - bones:
+      - PrevJoint:
+          x: -0.0008817344
+          y: -0.040604714
+          z: 0.013582794
+        NextJoint:
+          x: -0.0027887782
+          y: 0.023252107
+          z: 0.0040000007
+        Center:
+          x: -0.0018352563
+          y: -0.008676304
+          z: 0.008791397
+        Direction:
+          x: -0.029520802
+          y: 0.98849577
+          z: -0.14834046
+        Length: 0.0646
+        Width: 0.008
+        Type: 0
+        Rotation:
+          x: 0.045787096
+          y: 0.7563556
+          z: 0.64989656
+          w: -0.0588576
+      - PrevJoint:
+          x: -0.0027887782
+          y: 0.023252107
+          z: 0.0040000007
+        NextJoint:
+          x: -0.004106291
+          y: 0.06736867
+          z: -0.002620434
+        Center:
+          x: -0.0034475345
+          y: 0.04531039
+          z: 0.00068978337
+        Direction:
+          x: -0.029520791
+          y: 0.98849565
+          z: -0.14834045
+        Length: 0.044630002
+        Width: 0.008
+        Type: 1
+        Rotation:
+          x: 0.045787096
+          y: 0.7563556
+          z: 0.64989656
+          w: -0.0588576
+      - PrevJoint:
+          x: -0.004106291
+          y: 0.06736867
+          z: -0.002620434
+        NextJoint:
+          x: -0.004883574
+          y: 0.09339576
+          z: -0.0065262383
+        Center:
+          x: -0.0044949325
+          y: 0.08038221
+          z: -0.004573336
+        Direction:
+          x: -0.029520802
+          y: 0.9884956
+          z: -0.14834045
+        Length: 0.026330002
+        Width: 0.008
+        Type: 2
+        Rotation:
+          x: 0.045787096
+          y: 0.7563556
+          z: 0.64989656
+          w: -0.0588576
+      - PrevJoint:
+          x: -0.004883574
+          y: 0.09339576
+          z: -0.0065262383
+        NextJoint:
+          x: -0.0053972364
+          y: 0.110595584
+          z: -0.009107363
+        Center:
+          x: -0.005140405
+          y: 0.10199568
+          z: -0.007816801
+        Direction:
+          x: -0.029520838
+          y: 0.98849547
+          z: -0.14834052
+        Length: 0.0174
+        Width: 0.008
+        Type: 3
+        Rotation:
+          x: 0.045787096
+          y: 0.7563556
+          z: 0.64989656
+          w: -0.0588576
+      Type: 2
+      Id: 2
+      HandId: 0
+      TipPosition:
+        x: -0.0053972364
+        y: 0.110595584
+        z: -0.009107363
+      Direction:
+        x: -0.029520802
+        y: 0.9884956
+        z: -0.14834045
+      Width: 0.008
+      Length: 0.088360004
+      IsExtended: 1
+      TimeVisible: 0
+    - bones:
+      - PrevJoint:
+          x: 0.01041073
+          y: -0.039645933
+          z: 0.012603739
+        NextJoint:
+          x: 0.01744717
+          y: 0.017279144
+          z: 0.003999999
+        Center:
+          x: 0.01392895
+          y: -0.011183394
+          z: 0.008301869
+        Direction:
+          x: 0.12131793
+          y: 0.9814668
+          z: -0.14834034
+        Length: 0.058000002
+        Width: 0.008
+        Type: 0
+        Rotation:
+          x: 0.12257406
+          y: 0.7477605
+          z: 0.6520476
+          w: -0.02576382
+      - PrevJoint:
+          x: 0.01744717
+          y: 0.017279144
+          z: 0.003999999
+        NextJoint:
+          x: 0.022466091
+          y: 0.05788243
+          z: -0.0021368419
+        Center:
+          x: 0.01995663
+          y: 0.037580788
+          z: 0.00093157846
+        Direction:
+          x: 0.1213179
+          y: 0.9814668
+          z: -0.14834036
+        Length: 0.04137
+        Width: 0.008
+        Type: 1
+        Rotation:
+          x: 0.12257406
+          y: 0.7477605
+          z: 0.6520476
+          w: -0.02576382
+      - PrevJoint:
+          x: 0.022466091
+          y: 0.05788243
+          z: -0.0021368419
+        NextJoint:
+          x: 0.025577897
+          y: 0.08305705
+          z: -0.0059417724
+        Center:
+          x: 0.024021994
+          y: 0.07046974
+          z: -0.004039307
+        Direction:
+          x: 0.12131796
+          y: 0.9814669
+          z: -0.14834037
+        Length: 0.02565
+        Width: 0.008
+        Type: 2
+        Rotation:
+          x: 0.12257406
+          y: 0.7477605
+          z: 0.6520476
+          w: -0.02576382
+      - PrevJoint:
+          x: 0.025577897
+          y: 0.08305705
+          z: -0.0059417724
+        NextJoint:
+          x: 0.027676698
+          y: 0.10003643
+          z: -0.008508061
+        Center:
+          x: 0.026627298
+          y: 0.091546744
+          z: -0.0072249165
+        Direction:
+          x: 0.12131795
+          y: 0.9814667
+          z: -0.14834039
+        Length: 0.0173
+        Width: 0.008
+        Type: 3
+        Rotation:
+          x: 0.12257406
+          y: 0.7477605
+          z: 0.6520476
+          w: -0.02576382
+      Type: 3
+      Id: 3
+      HandId: 0
+      TipPosition:
+        x: 0.027676698
+        y: 0.10003643
+        z: -0.008508061
+      Direction:
+        x: 0.12131796
+        y: 0.9814669
+        z: -0.14834037
+      Width: 0.008
+      Length: 0.08432
+      IsExtended: 1
+      TimeVisible: 0
+    - bones:
+      - PrevJoint:
+          x: 0.021414071
+          y: -0.041812122
+          z: 0.0056831506
+        NextJoint:
+          x: 0.03533744
+          y: 0.009728715
+          z: -0.0000000030892977
+        Center:
+          x: 0.028375756
+          y: -0.016041704
+          z: 0.0028415737
+        Direction:
+          x: 0.2593289
+          y: 0.95997083
+          z: -0.105851255
+        Length: 0.05369
+        Width: 0.008
+        Type: 0
+        Rotation:
+          x: 0.2232317
+          y: 0.7092907
+          z: 0.6680725
+          w: -0.027450621
+      - PrevJoint:
+          x: 0.03533744
+          y: 0.009728715
+          z: -0.0000000030892977
+        NextJoint:
+          x: 0.043827873
+          y: 0.041158162
+          z: -0.0034655733
+        Center:
+          x: 0.039582655
+          y: 0.025443438
+          z: -0.0017327882
+        Direction:
+          x: 0.259329
+          y: 0.9599708
+          z: -0.10585125
+        Length: 0.032740004
+        Width: 0.008
+        Type: 1
+        Rotation:
+          x: 0.2232317
+          y: 0.7092907
+          z: 0.6680725
+          w: -0.027450621
+      - PrevJoint:
+          x: 0.043827873
+          y: 0.041158162
+          z: -0.0034655733
+        NextJoint:
+          x: 0.048524316
+          y: 0.05854324
+          z: -0.0053825397
+        Center:
+          x: 0.046176095
+          y: 0.049850702
+          z: -0.0044240565
+        Direction:
+          x: 0.25932872
+          y: 0.959971
+          z: -0.105851255
+        Length: 0.018110001
+        Width: 0.008
+        Type: 2
+        Rotation:
+          x: 0.2232317
+          y: 0.7092907
+          z: 0.6680725
+          w: -0.027450621
+      - PrevJoint:
+          x: 0.048524316
+          y: 0.05854324
+          z: -0.0053825397
+        NextJoint:
+          x: 0.052663207
+          y: 0.07386437
+          z: -0.0070719253
+        Center:
+          x: 0.050593764
+          y: 0.0662038
+          z: -0.0062272325
+        Direction:
+          x: 0.259329
+          y: 0.95997065
+          z: -0.105851226
+        Length: 0.01596
+        Width: 0.008
+        Type: 3
+        Rotation:
+          x: 0.2232317
+          y: 0.7092907
+          z: 0.6680725
+          w: -0.027450621
+      Type: 4
+      Id: 4
+      HandId: 0
+      TipPosition:
+        x: 0.052663207
+        y: 0.07386437
+        z: -0.0070719253
+      Direction:
+        x: 0.25932872
+        y: 0.959971
+        z: -0.105851255
+      Width: 0.008
+      Length: 0.06681001
+      IsExtended: 1
+      TimeVisible: 0
+    PalmPosition:
+      x: 0
+      y: 0
+      z: 0
+    PalmVelocity:
+      x: 0
+      y: 0
+      z: 0
+    PalmNormal:
+      x: -0.000000087422784
+      y: 1.9984014e-15
+      z: -1
+    Direction:
+      x: 0
+      y: 1
+      z: -1.9984014e-15
+    Rotation:
+      x: 0.00000003090862
+      y: 0.70710677
+      z: 0.70710677
+      w: -0.00000003090862
+    GrabStrength: 0
+    GrabAngle: 0
+    PinchStrength: 0
+    PinchDistance: 0
+    PalmWidth: 0.085
+    StabilizedPalmPosition:
+      x: 0
+      y: 0
+      z: 0
+    WristPosition:
+      x: 0.00887
+      y: -0.08512001
+      z: -0.0005000008
+    TimeVisible: 0
+    Confidence: 1
+    IsLeft: 1
+    Arm:
+      PrevJoint:
+        x: 0.0070581003
+        y: -0.3
+        z: 0.0039999993
+      NextJoint:
+        x: 0.0070581003
+        y: -0.05
+        z: 0.0039999993
+      Center:
+        x: 0.0070581003
+        y: -0.17500001
+        z: 0.0039999993
+      Direction:
+        x: 0
+        y: 1
+        z: 0
+      Length: 0.25
+      Width: 0.041
+      Type: 0
+      Rotation:
+        x: 0.00000003090862
+        y: 0.70710677
+        z: 0.70710677
+        w: -0.00000003090862
+  GizmoSize: 0.004
+  ElbowLength: 0
+  GlobalFingerRotationOffset: {x: 0, y: 0, z: 0}
+  WristRotationOffset: {x: 0, y: 0, z: 0}
+  SetEditorPose: 0
+  SetPositions: 0
+  UseMetaBones: 0
+  DebugLeapHand: 1
+  DebugLeapRotationAxis: 0
+  DebugModelTransforms: 1
+  DebugModelRotationAxis: 0
+  FineTuning: 0
+  DebugOptions: 0
+  EditPoseNeedsResetting: 0
+  Chirality: 0
+  BoundHand:
+    fingers:
+    - boundBones:
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+    - boundBones:
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+    - boundBones:
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+    - boundBones:
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+    - boundBones:
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+      - boundTransform: {fileID: 0}
+        startTransform:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+        offset:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0}
+    wrist:
+      boundTransform: {fileID: 0}
+      startTransform:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+      offset:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+    elbow:
+      boundTransform: {fileID: 0}
+      startTransform:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+      offset:
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: 0, y: 0, z: 0}
+  Offsets: 
+  DefaultHandPose:
+  - transform:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0, y: 0, z: 0}
+    reference: {fileID: 1752814448}
+--- !u!65 &1752814450
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752814448}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1752814451
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752814448}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1752814452
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752814448}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1752814453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752814448}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
