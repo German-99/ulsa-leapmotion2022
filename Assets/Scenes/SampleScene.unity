@@ -307,6 +307,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 414074342, guid: 1d338fed0ed7df84a86c220153fbcc35, type: 3}
+      propertyPath: leapProvider
+      value: 
+      objectReference: {fileID: 2023577466}
+    - target: {fileID: 414074342, guid: 1d338fed0ed7df84a86c220153fbcc35, type: 3}
       propertyPath: LeapHand.IsLeft
       value: 0
       objectReference: {fileID: 0}
@@ -1238,6 +1242,10 @@ PrefabInstance:
       propertyPath: LeapHand.Fingers.Array.data[4].bones.Array.data[3].PrevJoint.z
       value: 0.05854322
       objectReference: {fileID: 0}
+    - target: {fileID: 1015472947, guid: 1d338fed0ed7df84a86c220153fbcc35, type: 3}
+      propertyPath: leapProvider
+      value: 
+      objectReference: {fileID: 2023577466}
     - target: {fileID: 118734816077698762, guid: 1d338fed0ed7df84a86c220153fbcc35, type: 3}
       propertyPath: m_Name
       value: LowPolyHands
@@ -1481,3 +1489,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a287fb33c6757754ab2394de1ede5a7b, type: 3}
+--- !u!114 &2023577466 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11435192, guid: a287fb33c6757754ab2394de1ede5a7b, type: 3}
+  m_PrefabInstance: {fileID: 2023577465}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 025cc0fa7b46aa541aba29d28d35ac09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
