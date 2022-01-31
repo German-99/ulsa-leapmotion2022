@@ -15,4 +15,8 @@ public class Palm_tracker : MonoBehaviour
     {
         Debug.Log($"Palm position: {transform.position}");
     }
+
+    private void OnCollisionEnter(Collision collision) {
+        Debug.Log("Collision detected");
+    }
 }
